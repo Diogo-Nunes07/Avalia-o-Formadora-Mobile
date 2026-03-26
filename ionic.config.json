@@ -1,0 +1,7 @@
+{
+  "name": "Formadora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

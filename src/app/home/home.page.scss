@@ -1,0 +1,60 @@
+/* Barra superior Roxa */
+ion-toolbar {
+  --background: #6a1b9a; 
+  --color: white;
+}
+
+/* Fundo da tela inteira PRETO */
+ion-content {
+  --background: #000000; 
+}
+
+#container {
+  text-align: center;
+  padding: 30px 20px;
+  background: #1e1e1e; /* Cinza bem escuro para o cartão se destacar do fundo preto */
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid #333; /* Borda sutil */
+  
+  /* Centralização vertical */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Foto do Aluno (Item 35 do PDF) */
+ion-img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%; 
+  border: 4px solid #6a1b9a; /* Borda roxa na foto */
+  overflow: hidden;
+}
+
+/* Nome Completo (Item 33 do PDF) */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+/* Dados: Turma, Unidade e Turno (Item 34 do PDF) */
+p {
+  font-size: 15px;
+  color: #bbbbbb;
+  margin-bottom: 25px;
+}
+
+/* Botão de Navegação (Item 36 do PDF) */
+ion-button {
+  --background: #6a1b9a;
+  --color: white;
+  --border-radius: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
